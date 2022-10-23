@@ -3,6 +3,10 @@
 	"displayName": "Column Aligner",
 	"description": "Provides a shortcut key to consistently align the selected rows to the nearest tabstop.",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/richardtallent/column-aligner"
+	},
 	"engines": {
 		"vscode": "^1.72.0"
 	},
