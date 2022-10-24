@@ -7,6 +7,8 @@
 		"type": "git",
 		"url": "https://github.com/richardtallent/column-aligner"
 	},
+	"pricing": "Free",
+	"publisher": "RichardTallentVS",
 	"engines": {
 		"vscode": "^1.72.0"
 	},
