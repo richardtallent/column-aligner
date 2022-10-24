@@ -22,11 +22,7 @@ Note in the above example that it indents further than needed for readability. A
 
 ### Multi-cursor selection alignment
 
-If you select more than range using Visual Studio Code's multi-cursor feature, it will align each row to the nearest tab stop of the greated cursor column.
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
+If you select more than range using multi-cursor selection, it will align each row to the nearest tab stop of the greated cursor column.
 
 ![Multi-cursor selection alignment](images/Example1.gif)
 
@@ -34,7 +30,7 @@ For example if there is an image subfolder under your extension project workspac
 
 I use tabs in every language where it is legal (basically, everything but YAML). Many developers prefer spaces. This extension uses your preferred tab vs. spaces setting and tab width.
 
-It does _not_ right-trim the rows after aligning them, but this was done purposefully, to allow easier follow-up editing. I recommend using `"files.trimTrailingWhitespace": true` in your VS Code settings.
+It does _not_ right-trim the rows after aligning them, but this was done purposefully, to allow easier follow-up editing. I recommend using `"files.trimTrailingWhitespace": true` in your settings.
 
 ## Requirements
 
@@ -46,13 +42,13 @@ None.
 
 ## Bug Reports and Contributions
 
-This is my first VS Code extension. I'm sure there are edge cases I haven't considered. Please report bugs through GitHub Issues, with minimal reproducible instructions. An animated recording would also be helpful.
+This is my first Azure Data Studio extension. I'm sure there are edge cases I haven't considered. Please report bugs through GitHub Issues, with minimal reproducible instructions. An animated recording would also be helpful.
 
 Pull requests are welcome! Please follow the code formatting and linter/prettier settings I'm already using.
 
 ## Settings
 
-None. You can adjust the keyboard binding in the general VS Code keyboard bindings, if desired.
+None. You can adjust the keyboard binding in the keyboard bindings, if desired.
 
 ## Release Notes
 
